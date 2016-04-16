@@ -1,6 +1,7 @@
 # Raincoat
 
 VBChk
+
 VBChk - Checking file hash against VirusTotal G
 
 Developer : Andy Yang Version : 0.1.0 License : GNU GENERAL PUBLIC LICENSE v3
@@ -12,7 +13,7 @@ EXAMPLE USAGE:
 
     ./VBchk.rb  -f '/User/eve/autorun.csv'
 
-    -f, --CSV file path              CSV file that has file hashes to be checked with VB. 
+    -f, --CSV file path              CSV file that has file hashes to be checked with VirusTotal. 
     -h, --help                       Display help
 
 Note: CSV file has two columns, col_1 is file path (or filename), col_2 is hash.
