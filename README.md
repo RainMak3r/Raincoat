@@ -2,7 +2,7 @@
 
 VBChk
 
-VBChk - Checking file hash against VirusTotal G
+VBChk - Checking file hash against VirusTotal.
 
 Developer : Andy Yang Version : 0.1.0 License : GNU GENERAL PUBLIC LICENSE v3
 
