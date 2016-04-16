@@ -25,7 +25,7 @@ Note: CSV file has two columns, col_1 is file path (or filename), col_2 is hash.
             
             |c:\windows\syswow64\mal01.exe           |SHA1   |
             
-            |mal02.dll                              |MD5     |
+            |mal02.dll                               |MD5    |
             
     
 
@@ -40,13 +40,13 @@ RainMak3r@Could:~/Desktop#./VBChk.rb -f demo.csv
 
 [Alert]   File detection rate : 38/54
 
-[Alert]   VirusTotal Link : https://www.virustotal.com/en/file/3f55d34aa0b71daf4ad8a5937721ba4511e55cd31fdacd2e817e8977605232b8/analysis/
+[Alert]   VirusTotal Link : https://www[dot]virustotal[dot]com/en/file/3f55d34aa0b71daf4ad8a5937721ba4511e55cd31fdacd2e817e8977605232b8/analysis/
 
 [Alert]   Potential malware detected : c:\windows\system32\mal02.dll
 
 [Alert]   File detection rate : 40/54
 
-[Alert]   VirusTotal Link : https://www.virustotal.com/en/file/521fb6ebc79e4bbb4d31d4f70c5a1a9c2b8c34099e6f67749f1f01f26a15ee95/analysis/
+[Alert]   VirusTotal Link : https://www[dot]virustotal[dot]com/en/file/521fb6ebc79e4bbb4d31d4f70c5a1a9c2b8c34099e6f67749f1f01f26a15ee95/analysis/
 
 [Info] No detection for c:\windows\system32\drivers\legitmate.sys
 
