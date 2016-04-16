@@ -101,7 +101,7 @@ end
 
 def Vbchk(csvfile)
     i=0
-    CSV.open("VBrating.csv", "w") do |csv|
+    CSV.open("VTrating.csv", "w") do |csv|
         csv << ["File Path", "Detection","Analysis Date","Comments", "MD5","VBlink"]
         CSV.foreach(csvfile) {
             |row| 
@@ -187,6 +187,6 @@ elsif (File.exist?(options[:file])==false)
 else 
     f=options[:file]
     Vbchk(f)
-    puts pink("\e[1m[DONE]  Please check the output VBrating.csv file for details.\e[0m")
+    puts pink("\e[1m[DONE]  Please check the output VTrating.csv file for details.\e[0m")
 end
 
